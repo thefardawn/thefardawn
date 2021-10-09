@@ -1,0 +1,96 @@
+#wrapper {
+	margin: 1em auto;
+	padding: 0;
+	width: 960px;
+	background-color: #ffffff;
+	border-style: groove;
+	border-color: black;
+	border-width: 3px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+body {
+	background-image: url("./gradbg1.png");
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #ffdddd;
+	padding: 10px;
+}
+
+header {
+	grid-area:1 / 1 / span 1 / span4;
+	margin: 10px;
+	
+}
+
+main {
+	grid-area:3 / 1 / span 2 / span 2;
+	margin: 10px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  
+}
+
+.charname {
+	grid-area: 2 / 1 / span 1 / span 1;
+	margin: 10px;
+}
+
+.classify {
+	font-family: Verdana, sans-serif;
+	background-color: beige;
+	/* border-width: thin; */
+	border-color: darkgray;
+	border-style: inset;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	grid-area: 2 / 3 / span 2 / span 2;
+	margin: 10px;
+
+}
+
+h3.charname {
+	text-align: center;
+}
+
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: right;
+	width:60%;
+}
+
+th {
+	text-align: left;
+	width:40%;
+}

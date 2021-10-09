@@ -1,0 +1,25 @@
+#wrapper {
+	margin: 1em auto;
+	padding: 0;
+	width: 960px;
+	background-color: #ffffff;
+	border-style: groove;
+	border-color: black;
+	border-width: 3px;
+
+	}
+	
+body {
+	background-image: url("./gradbg1.png");
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #ffdddd;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1, h2, h3, h4, h5 {
+	padding: 0px 10px 0px 10px;
+}
